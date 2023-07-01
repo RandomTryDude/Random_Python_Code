@@ -71,7 +71,7 @@ def handle(self,client_socket):
                 file_buffer += data
             else:
                 break
-        with open(self.args.upload 'wb') as f:
+        with open(self.args.upload, 'wb') as f:
             f.write(file_buffer)
             message = f'Saved file {self.args.upload}'
             client_socket.send(message.encode())
