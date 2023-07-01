@@ -41,7 +41,7 @@ def send(self):
                     break
             if response:
                 print(response)
-                buffer = input '> '
+                buffer = input ('> ')
                 buffer += '\n'
                 self.socket.send(buffer.encode())
     except KeyboardInterrupt:
