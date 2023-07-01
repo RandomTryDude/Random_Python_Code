@@ -86,10 +86,10 @@ def handle(self,client_socket):
                     if response:
                         client_socket.send(response.encore())
                         cmd_buffer = b''
-                    except Exception as e:
-                        print(f'server killed {e}')
-                        self.socket.close()
-                        sys.exit()
+            except Exception as e:
+                print(f'server killed {e}')
+                self.socket.close()
+                sys.exit()
             
     
 
