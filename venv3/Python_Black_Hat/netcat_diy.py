@@ -53,8 +53,8 @@ def listen(self):
     self.socket.listen(5)
     while True:
         client_socket, _ = self.socket.accept()
-        client thread = threading.Thread(
-            targt = self.handle, args = (client_socket,)
+        client_thread = threading.Thread(
+            target = self.handle, args = (client_socket,)
         )
         client_thread.start()
 
