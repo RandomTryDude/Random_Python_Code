@@ -24,8 +24,6 @@ def handle_client(client_socket):
         sock.send(b'ACK')
         
         
-main()
-""""
+
 if __name__ == "__main__":
     main()
-"""" 
