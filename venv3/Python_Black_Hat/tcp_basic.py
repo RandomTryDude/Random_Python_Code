@@ -5,6 +5,8 @@ target_port = 80
 
 #create a socket object
 client = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+# AF_INET == IPV4
+# SOCK_STREAM == client TCP
 
 # connect the client
 client.connect((target_host,target_port))
