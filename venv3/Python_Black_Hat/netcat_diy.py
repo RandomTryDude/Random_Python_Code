@@ -96,7 +96,7 @@ def handle(self,client_socket):
         
 if __name__ == "__main__":
     parser=argparse.ArgumentParser(
-        description=('BHP Net Tool',
+        description='BHP Net Tool',
                      
     formatter_class=argparse.RawDescriptionHelpFormatter,
     epilog=textwrap.dedent('''Examples: netcat.py -t 192.168.1.108 -p 5555 -l -c #
