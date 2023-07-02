@@ -33,7 +33,7 @@ def send(self):
         while True:
             recv_len = 1
             response = ''
-            while recp_len:
+            while recv_len:
                 data = self.socket.recv(4096)
                 recv_len = len(data)
                 response += data.decode()
