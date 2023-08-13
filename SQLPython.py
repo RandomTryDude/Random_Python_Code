@@ -8,7 +8,7 @@ def main():
     cursor = conn.cursor()
 
     # Define and execute an SQL SELECT query
-    query = "SELECT * FROM MaTable;"
+    query = "SELECT identifiant FROM MaTable;"
     cursor.execute(query)
 
     # Fetch all the rows from the result set
