@@ -14,12 +14,8 @@ Le répertoire est organisé en sous-dossiers, chacun contenant du code lié à 
 
 ### 1. **Python_Black_Hat**
 Contient des extraits de code issue du livre "Black Hat Python" 
-Tout les éléments n'ont pas été mis en ligne seul les parties tcp/udp ont été upload
+Tout les éléments n'ont pas été mis en ligne seul les parties tcp/udp sont upload
 
-### 2. **SQL_Py**
-
-Contient des éléments de codes se servant de SQL/Database.
-Projet ayant pour but d'enrichir ma compréhension des DB a usage futur sur du traitement de données a objectif statistique
 
 ### 3. **Password_Rand_Generator**
 
